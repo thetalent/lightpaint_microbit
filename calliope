@@ -1,0 +1,13 @@
+
+from microbit import *
+sleep(2000);
+while True:
+    for char in "CALLIOPE":
+        
+        display.show(char);
+        sleep(20);
+        display.show(' ');
+        sleep(100);
+    display.show(' ');
+    sleep(500);
+
